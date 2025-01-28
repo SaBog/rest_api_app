@@ -42,7 +42,7 @@
 - **GET /api/activities/{activity_id}/organizations/search**: Список всех организаций, относящихся к указанному виду деятельности, включая вложенные виды.
 - **GET /api/organizations/search**: Поиск организаций по названию.
 - **GET /api/organizations/nearby/circular**: Список организаций в заданном радиусе от точки.
-- **GET /api/organizations/nearby/rectangular**: Список организаций в заданном радиусе от точки.
+- **GET /api/organizations/nearby/rectangular**: Список организаций в заданной прямоугольной области.
 - **GET /api/organizations/{organization_id}**: Получить информацию об организации по её идентификатору.
 
 ## Инструкции по разворачиванию
@@ -55,4 +55,6 @@ cd rest_api_app
 docker-compose up --build
 ```
 
-Перейдите [rest_api_app](http://localhost:8000)
+[ Swagger UI ](http://localhost:8000/docs)
+/
+[ Redoc ](http://localhost:8000/redoc)
